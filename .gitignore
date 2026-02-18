@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local env
+.env
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# ML artifacts and data
+data/raw/*
+data/processed/*
+artifacts/*
+plots/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!artifacts/.gitkeep
+!plots/.gitkeep
+
+# DVC cache
+.dvc/cache/
+
+# MLflow local runs
+mlruns/

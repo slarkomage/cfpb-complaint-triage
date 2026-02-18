@@ -1,0 +1,17 @@
+data:
+  source_url: "https://files.consumerfinance.gov/ccdb/complaints.csv"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  artifacts_dir: "artifacts"
+  raw_path: "data/raw/complaints_raw.csv"
+  train_filename: "train.parquet"
+  val_filename: "val.parquet"
+  test_filename: "test.parquet"
+  label_map_filename: "label_maps.json"
+  text_column: "consumer_complaint_narrative"
+  target_column: "product"
+  id_column: "complaint_id"
+  issue_column: "issue"
+  timely_response_column: "timely_response"
+  top_k_products: 10
+  max_rows: 50000

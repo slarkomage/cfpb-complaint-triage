@@ -1,0 +1,4 @@
+pretrained_model_name: "distilbert-base-uncased"
+dropout: 0.2
+multitask_enable: false
+multitask_secondary_target: "issue"

@@ -1,0 +1,11 @@
+defaults:
+  - data
+  - preprocess
+  - train
+  - infer
+  - export
+  - logging
+  - model: distilbert
+  - _self_
+
+project_name: cfpb-complaint-triage

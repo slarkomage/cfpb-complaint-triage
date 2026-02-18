@@ -1,0 +1,6 @@
+export:
+  checkpoint_path: "artifacts/checkpoints/best.ckpt"
+  onnx_path: "artifacts/model.onnx"
+  bundle_dir: "artifacts/infer_bundle"
+  opset: 18
+  dynamic_axes: true

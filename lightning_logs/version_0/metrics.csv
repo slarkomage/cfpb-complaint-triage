@@ -1,0 +1,4 @@
+epoch,step,test/acc,test/f1_macro,test/f1_weighted,test/loss,train/acc,train/f1_macro,train/f1_weighted,train/loss,val/acc,val/f1_macro,val/f1_weighted,val/loss
+0,11,,,,,,,,,1.0,1.0,1.0,1.0834802389144897
+0,11,,,,,0.4375,0.4040403962135315,0.4040403962135315,1.2872933149337769,,,,
+1,12,1.0,1.0,1.0,1.0844823122024536,,,,,,,,

@@ -1,0 +1,4 @@
+infer:
+  top_k: 3
+  batch_size: 32
+  input_text_column: "consumer_complaint_narrative"

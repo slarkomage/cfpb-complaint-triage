@@ -1,0 +1,11 @@
+train:
+  epochs: 2
+  batch_size: 8
+  accelerator: auto
+  devices: 1
+  lr: 2.0e-5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  early_stopping_patience: 2
+  max_length: 192
+  num_workers: 0
